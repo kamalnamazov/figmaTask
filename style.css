@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", system-ui;
+}
+
+.kamal {
+    font-family: Roboto;
+    margin-left: 8em;
+    margin-bottom: 30px;
+}
+
+.content-bir {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4em;
+}
+
+.content-iki {
+    width: 100%;
+    margin-top: 6em;
+    margin-bottom: 9em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.kamal h1 {
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-size: 55px;
+    height: 2em;
+}
+
+.kamal .par {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+.kamal .content-bir img {
+    width: 23em;
+    height: 21.5em;
+    padding-left: 5.6em;
+}
+
+.kamal .content-iki img {
+    width: 14.5em;
+    height: 13.6em;
+}
+
+.kamal .content-table {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 9.3em;
+    gap: 5.3em;
+}
+
+.kamal .tab {
+    width: 9.3em;
+}
+
+.kamal .content-table h3 {
+    font-size: 25px;
+    height: 2em;
+}
+
+.kamal .content-table p {
+    font-size: 18px;
+}
+
+
+/*phone*/
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .kamal {
+        margin-left: 2em;
+    }
+
+    .kamal .content-bir {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .kamal h1 {
+        font-size: 36px;
+    }
+
+    .kamal .par {
+        font-size: 18px;
+    }
+
+    .kamal .content-bir img {
+        width: 14em;
+        height: 14em;
+        padding-left: 0;
+    }
+
+    .kamal .content-iki img {
+        display: none;
+    }
+
+    .kamal .content-table {
+        margin: 0;
+    }
+
+    .kamal .content-iki {
+        margin-bottom: 3em;
+    }
+
+    .kamal .tab {
+        width: 6em;
+    }
+
+    .kamal .content-table h3 {
+        font-size: 18px;
+        height: 1.5em;
+    }
+
+    .kamal .content-table p {
+        font-size: 14px;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 601px) and (max-width: 991px) {
+    .kamal {
+        margin-left: 3em;
+    }
+
+    .kamal h1 {
+        font-size: 32px;
+    }
+
+    .kamal .par {
+        font-size: 14px;
+    }
+
+    .kamal .content-bir {
+        gap: 2em;
+    }
+
+    .kamal .content-bir img {
+        width: 30%;
+        height: 15em;
+        padding: 0 3em;
+    }
+
+    .kamal .content-iki {
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+
+    .kamal .content-table .tab{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+
+    .kamal .content-iki img {
+        width: 8.4em;
+        height: 7.3em;
+    }
+
+    .kamal .content-table {
+        margin-left: 4em;
+        gap: 4em;
+    }
+
+    .kamal .tab {
+        width: 6em;
+    }
+
+    .kamal .content-table h3 {
+        font-size: 15px;
+        height: 0.8em;
+    }
+
+    .kamal .content-table p {
+        font-size: 11px;
+    }
+}
